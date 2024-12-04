@@ -1,0 +1,19 @@
+
+.separator-btn {
+    display: flex;
+    align-items: center;
+  }
+  
+  .separator, .contact-btn {
+    transition: all 0.3s ease;
+  }
+  
+  .separator:hover {
+    background-color: rgb(10,10,10); /* Schimbă culoarea la hover */
+  }
+  
+  .contact-btn:hover {
+    background-color: #007bff; /* Schimbă culoarea la hover */
+    color: white; /* Schimbă culoarea textului la hover */
+  }
+  

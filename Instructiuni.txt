@@ -1,0 +1,26 @@
+Aplicatia foloseste Node.js si Pocketbase(pentru baza de date).
+Pocketbase este inclus in arhiva aplicatiei.
+
+Dupa dezarhivare se deschid 2 terminale powershell in folderul aplicatiei "Proiect Site", 
+iar in unul din cele 2 terminale se ruleaza comenzile:
+
+npm i -g pnpm           - pentru install pnpm
+pnpm i                  - pentru instalarea pachetelor, in arhiva exista deja folderele
+ 			 corespunzatoare pachetelor, totusi poate fi rulata comanda pentru update
+		         
+In cazul in care aparea eraorea "running scripts is disabled on this system" aici este link-ul cu pasii care rezolva problema:
+https://www.addictivetips.com/windows-tips/fix-running-scripts-is-disabled-on-this-system-powershell-on-windows-10/#:~:text=To%20fix%20the%20%E2%80%9Crunning%20scripts%20is%20disabled%20on,you%20will%20be%20able%20to%20run%20the%20script.
+
+pnpm dev                - pentru deschiderea site-ului frontend
+
+
+In cel de-al doilea terminal se va rula:
+
+.\pocketbase.exe serve  - pentru deschiderea bazei de date, backend
+
+
+Baza de date se va accesa prin admin
+credentiale admin:
+
+mail:   admin@admin.com
+parola: admin123456789
